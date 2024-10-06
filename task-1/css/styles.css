@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif; /* Шрифт */
+  margin: 20px; /* Отступы */
+}
+
+input, textarea {
+  width: 100%; /* Ширина 100% */
+  padding: 10px; /* Отступы */
+  margin-top: 10px; /* Отступ сверху */
+}
+
+button {
+  padding: 10px; /* Отступы */
+  margin-top: 10px; /* Отступ сверху */
+  background-color: #4CAF50; /* Цвет фона кнопки */
+  color: white; /* Цвет текста кнопки */
+  border: none; /* Без границ */
+  cursor: pointer; /* Указатель */
+}
+
+button:hover {
+  background-color: #45a049; /* Цвет при наведении */
+}
+
+h1, h2 {
+  color: #333; /* Цвет заголовков */
+}

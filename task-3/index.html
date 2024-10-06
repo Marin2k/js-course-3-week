@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Средняя температура</title> 
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    <div class="container"> 
+        <h1>Расчет средней температуры</h1> 
+        <textarea id="input" placeholder="Введите данные..."></textarea> 
+        <button id="calculate">Посчитать</button> 
+        <div>
+            <label for="sortOrder">Сортировать по:</label> 
+            <select id="sortOrder"> 
+                <option value="id">Возрастанию ID датчика</option> 
+                <option value="temperature">Возрастанию средней температуре</option> 
+            </select>
+        </div>
+        <pre id="output"></pre> 
+    </div>
+    <script src="js/scripts.js"></script> 
+</body>
+</html>

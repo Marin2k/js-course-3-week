@@ -1,0 +1,48 @@
+body {
+  background-color: #f0f0f0; /* Светлый фон для страницы */
+  color: #333; /* Цвет текста */
+  font-family: Arial, sans-serif; /* Шрифт для текста */
+}
+
+.container {
+  width: 80%; /* Ширина контейнера */
+  max-width: 600px; /* Максимальная ширина контейнера */
+  margin: 0 auto; /* Центрируем контейнер */
+  padding: 20px; /* Отступы внутри контейнера */
+  background-color: #ffffff; /* Белый фон для контейнера */
+  border: 2px solid #4CAF50; /* Зеленая рамка вокруг контейнера */
+  border-radius: 8px; /* Закругленные углы */
+}
+
+h1 {
+  color: #4CAF50; /* Зеленый цвет заголовка */
+}
+
+textarea {
+  width: 100%; /* Ширина поля ввода на всю ширину контейнера */
+  height: 100px; /* Высота поля ввода */
+  margin-bottom: 10px; /* Отступ снизу */
+  padding: 10px; /* Отступы внутри поля */
+  border: 1px solid #4CAF50; /* Зеленая рамка вокруг поля */
+  border-radius: 4px; /* Закругленные углы */
+  font-size: 16px; /* Размер шрифта */
+}
+
+button {
+  background-color: #4CAF50; /* Зеленый цвет кнопки */
+  color: white; /* Белый цвет текста на кнопке */
+  border: none; /* Убираем рамку у кнопки */
+  padding: 10px 15px; /* Отступы внутри кнопки */
+  border-radius: 4px; /* Закругленные углы */
+  cursor: pointer; /* Указатель при наведении на кнопку */
+}
+
+button:hover {
+  background-color: #45a049; /* Темнее зеленый при наведении */
+}
+
+pre {
+  background-color: #e7f7e7; /* Светло-зеленый фон для вывода */
+  padding: 10px; /* Отступы внутри поля вывода */
+  border-radius: 4px; /* Закругленные углы */
+}
